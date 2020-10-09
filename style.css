@@ -1,0 +1,35 @@
+.container {
+    margin: auto;
+    background-color: darkgray;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    margin: 8px;
+}
+
+output {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    background: #fff;
+    margin: 10px auto;
+    border-radius: 5px;
+    font-size: 1.4em;
+    font-weight: bold;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.3), inset -1px -1px 1px rgba(0, 0, 0, 0.3);
+}
